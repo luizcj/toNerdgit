@@ -1,0 +1,16 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: toNerd
+  host: toNerd
+  disk_quota: 1024M
+  services:
+  - luizcjRSS-cloudantNoSQLDB
+  - Language Translator-x4
+  - Personality Insights-wy
+  - Tone Analyzer-1n
+  - Speech to Text-sw
+  - toNerd-cloudantNoSQLDB
+  - availability-monitoring-auto
